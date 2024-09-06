@@ -7,7 +7,7 @@ import { GoGear } from 'react-icons/go'
 
 const KeyComponents = () => {
   return (
-    <div className="bg-gray-100 h-auto py-10">
+    <div className="bg-gray-100 h-auto pt-10">
         <div className="container mx-auto flex flex-col justify-center items-center ">
             <h1 className="text-blue-950 font-bold text-3xl mt-20">KEY PILLARS</h1>
             <p className="text-blue-950 font-bold text-xl mt-2">The key pillars of Tshimologong’s ecosystem in achieving its purpose are:</p>
@@ -66,7 +66,7 @@ const KeyComponents = () => {
                 <h1 className="text-center text-blue-950 -mt-13 md:-mt-10">Mobile App Development <br></br> Web Development <br></br>Testing</h1>
             </div>
         </div>
-        <div style={{ backgroundImage: `url(${pic1})`,backgroundSize: 'cover', backgroundPosition: 'center',}} className="object-cover h-[400px] mt-10">
+        <div style={{ backgroundImage: `url(${pic1})`,backgroundSize: 'cover', backgroundPosition: 'center',}} className="object-cover h-[450px] md:h-[400px] mt-10">
             <h1 className="text-center text-white text-2xl font-bold container px-[15%] pt-[10%]">We exist to fulfil our “Africa Rising” destiny by producing world class developers, entrepreneurs and innovators of digital technology</h1>
             <div className="grid-cols-1 md:flex justify-center mt-8 md:gap-4">
                 <button className="bg-pink-500 px-7 mb-4 py-1.5 text-white flex gap-2 hover:bg-pink-700 w-full md:w-auto ">PARTNERS <FaAngleRight className="mt-1"/></button> 
