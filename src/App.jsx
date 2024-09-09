@@ -10,6 +10,8 @@ import SuccessStories from './Components/SuccessStories'
 import Footer from './Components/Footer'
 import Footer2 from './Components/Footer2'
 import PolicyRR from './Components/PolicyRR'
+import SlideShow from './Components/SlideShow'
+
 const App = () => {
 
 
@@ -22,6 +24,7 @@ const App = () => {
     <OurImpact />
     <Reports />
     <SuccessStories />
+    <SlideShow />
     <Footer />
     <Footer2 />
     <PolicyRR />

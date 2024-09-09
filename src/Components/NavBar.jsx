@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import logo from '../assets/tshimologong-dark-logo.svg';
 import BlueStripe from './BlueStripe';
 import { FaAngleDown, FaAngleRight } from "react-icons/fa6";
@@ -8,14 +8,29 @@ import { FaTimes } from 'react-icons/fa';
 
 const NavBar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
+    const [isSticky, setIsSticky] = useState(false); // State to control navbar position
 
+    // Function to handle scroll event
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 0) {
+                setIsSticky(true); // Set sticky state to true when scrolled
+            } else {
+                setIsSticky(false); // Reset to false when at the top
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll); // Add scroll event listener
+        return () => window.removeEventListener('scroll', handleScroll); // Cleanup event listener on unmount
+    }, []);
     return (
         <div>
             <div className="bg-blue-950">
                 <BlueStripe />
             </div>
             {/* TODO: make the navbar move to top-0 on scroll and tgen apply the fixed attribute */}
-            <nav className="p-4 fixed bg-white z-50 w-full">
+            {/* <nav className="p-4 fixed bg-white z-50 w-full"> */}
+            <nav className={`p-4 w-full bg-white z-50 transition-all duration-300 ${isSticky ? 'fixed top-0 shadow-lg' : 'relative'}`}>
                 <div className="flex justify-between items-center">
                   
                     <div>
