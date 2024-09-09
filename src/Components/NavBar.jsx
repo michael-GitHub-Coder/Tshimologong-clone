@@ -29,7 +29,6 @@ const NavBar = () => {
                 <BlueStripe />
             </div>
             {/* TODO: make the navbar move to top-0 on scroll and tgen apply the fixed attribute */}
-            {/* <nav className="p-4 fixed bg-white z-50 w-full"> */}
             <nav className={`p-4 w-full bg-white z-50 transition-all duration-300 ${isSticky ? 'fixed top-0 shadow-lg' : 'relative'}`}>
                 <div className="flex justify-between items-center">
                   
