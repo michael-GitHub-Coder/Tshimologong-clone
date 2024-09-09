@@ -5,6 +5,11 @@ import Hero from './Components/Hero'
 import KeyComponents from './Components/KeyComponents'
 import WorkInAction from './Components/WorkInAction'
 import OurImpact from './Components/OurImpact'
+import Reports from './Components/Reports'
+import SuccessStories from './Components/SuccessStories'
+import Footer from './Components/Footer'
+import Footer2 from './Components/Footer2'
+import PolicyRR from './Components/PolicyRR'
 const App = () => {
 
 
@@ -15,6 +20,11 @@ const App = () => {
     <KeyComponents />
     <WorkInAction />
     <OurImpact />
+    <Reports />
+    <SuccessStories />
+    <Footer />
+    <Footer2 />
+    <PolicyRR />
     </>
   )
 }

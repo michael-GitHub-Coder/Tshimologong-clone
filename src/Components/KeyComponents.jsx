@@ -20,12 +20,12 @@ const KeyComponents = () => {
                 <div className=" bg-white flex flex-col w-96 h-auto mb-10">
                     <img src={pic1} className="px-5 pt-5 cursor-pointer transition-transform duration-300 transform hover:scale-90"/>
                     <h1 className="flex justify-center font-bold pt-5 text-cyan-400">INCUBATION & ACCELERATION</h1>
-                    <p className="text-center text-gray-400 py-4">Initiatives are designed to increase Digital Startups, supporting their businesses at every stage of development.</p>
+                    <p className="text-center px-5 text-gray-400 py-4">Initiatives are designed to increase Digital Startups, supporting their businesses at every stage of development.</p>
                 </div>
                 <div className=" bg-white flex flex-col w-96 h-auto mb-10">
                     <img src={pic1} className="px-5 pt-5 cursor-pointer transition-transform duration-300 transform hover:scale-90"/>
                     <h1 className="flex justify-center font-bold pt-5 text-orange-600 " >NETWORKS AND MARKET ACCESS</h1>
-                    <p className="text-center text-gray-400 py-4">Through various programmes we enable entrepreneurs to build effective networks, providing access to funding and markets.</p>
+                    <p className="text-center text-gray-400 px-5 py-4">Through various programmes we enable entrepreneurs to build effective networks, providing access to funding and markets.</p>
                 </div>
             </div>
         </div>
@@ -55,7 +55,7 @@ const KeyComponents = () => {
                             <FaTools className="absolute top-[25%] left-[42%] text-4xl"/>
                             <h1 className="absolute top-1/2 left-[30%] font-bold">HARDWARE</h1>
                         </div>
-                        <h1 className="text-center text-blue-950">INternet of Things<br></br>Digital Fabrication<br></br>Robotics <br></br>Electronics</h1>
+                        <h1 className="text-center text-blue-950">Internet of Things<br></br>Digital Fabrication<br></br>Robotics <br></br>Electronics</h1>
                    </div>
                 </div>
                 {/* SOFTWARE */}

@@ -4,7 +4,7 @@ import { FaBuilding, FaCalendarAlt, FaPenAlt } from "react-icons/fa";
 
 const WorkInAction = () => {
   return (
-    <div className="container mx-auto mt-10 mb-20">
+    <div className="container mx-auto mt-10">
         <h1 className="flex justify-center text-blue-950 font-bold text-2xl mb-5">OUR WORK IN ACTION</h1>
         <p className="flex justify-center text-blue-950 font-semibold text-xl">We produce world class developers, enterpreneurs and innovators of digital technology</p>
         {/* cards */}
@@ -20,7 +20,7 @@ const WorkInAction = () => {
                     <button className="flex items-center border-2 border-blue-950 px-7 py-2 gap-2">EXPLORE <FaAngleRight className="mt-1"/></button>
                 </div>
             </div>
-{/* edfeded */}
+            {/* edfeded */}
             <div className="w-96 h-auto bg-gray-200 text-center">
                 <div className="flex justify-center py-3">
                     <FaBuilding  className="text-4xl text-blue-950"/>

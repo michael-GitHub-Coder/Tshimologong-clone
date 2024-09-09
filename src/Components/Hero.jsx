@@ -30,7 +30,7 @@ const Hero = () => {
 
   return (
     <div>
-      <div className="relative w-full h-[250px] md:h-[410px] overflow-hidden">
+      <div className="relative w-full h-[250px] md:h-[460px] overflow-hidden">
           <button
               onClick={prevSlide}
               className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-lg"
