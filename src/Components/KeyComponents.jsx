@@ -1,5 +1,8 @@
 import React from 'react'
 import pic1 from '../assets/Skill-Development.jpg'
+import pic2 from '../assets/incubation.svg'
+import pic3 from '../assets/Market-Access.jpg'
+
 import { FaAngleRight, FaArrowRight, FaRegPenToSquare } from 'react-icons/fa6'
 import { FaTools } from 'react-icons/fa'
 import { GoGear } from 'react-icons/go'
@@ -18,12 +21,12 @@ const KeyComponents = () => {
                     <p className="text-center px-5 text-gray-400 py-4">Programmes are focussed on increasing talent in digital ventures and growing tech teams.</p>
                 </div>
                 <div className=" bg-white flex flex-col w-96 h-auto mb-10">
-                    <img src={pic1} className="px-5 pt-5 cursor-pointer transition-transform duration-300 transform hover:scale-90"/>
+                    <img src={pic2} className="px-5 pt-5 cursor-pointer transition-transform duration-300 transform hover:scale-90"/>
                     <h1 className="flex justify-center font-bold pt-5 text-cyan-400">INCUBATION & ACCELERATION</h1>
                     <p className="text-center px-5 text-gray-400 py-4">Initiatives are designed to increase Digital Startups, supporting their businesses at every stage of development.</p>
                 </div>
                 <div className=" bg-white flex flex-col w-96 h-auto mb-10">
-                    <img src={pic1} className="px-5 pt-5 cursor-pointer transition-transform duration-300 transform hover:scale-90"/>
+                    <img src={pic3} className="px-5 pt-5 cursor-pointer transition-transform duration-300 transform hover:scale-90"/>
                     <h1 className="flex justify-center font-bold pt-5 text-orange-600 " >NETWORKS AND MARKET ACCESS</h1>
                     <p className="text-center text-gray-400 px-5 py-4">Through various programmes we enable entrepreneurs to build effective networks, providing access to funding and markets.</p>
                 </div>

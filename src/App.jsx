@@ -11,6 +11,7 @@ import Footer from './Components/Footer'
 import Footer2 from './Components/Footer2'
 import PolicyRR from './Components/PolicyRR'
 import SlideShow from './Components/SlideShow'
+import WhatWeDo from './Components/WhatWeDo'
 
 const App = () => {
 
@@ -19,6 +20,7 @@ const App = () => {
     <>
     <NavBar />
     <Hero />
+    <WhatWeDo />
     <KeyComponents />
     <WorkInAction />
     <OurImpact />
