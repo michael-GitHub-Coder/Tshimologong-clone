@@ -36,7 +36,7 @@ const OurImpact = () => {
         <div style={{ backgroundImage: `url(${pic1})`,backgroundSize: 'cover', backgroundPosition: 'center',}} className="object-cover h-[680px] md:h-[450px] md:h-[400px] mt-10">
                 <div className="text-center py-20">
                     <h1 className="flex justify-center text-white text-3xl font-bold mb-3">OUR IMPACT</h1>
-                    <p className="text-white text-xl font-semibold">We develop skilled youth and Digital Entrepreneurs that Excel in Global Markets</p>
+                    <p className="text-white text-center text-xl font-semibold">We develop skilled youth and Digital Entrepreneurs that Excel in Global Markets</p>
                     <div className="md:flex justify-center gpa-2 md:gap-7 grid-cols-1">
                         <div className="grid-cols-1">
                             <div className="text-yellow-400 ">
@@ -65,8 +65,8 @@ const OurImpact = () => {
                     </div>
                 </div>
         </div>
-        <div className="relative container mx-auto md:-mt-28">
-            <p className="md:absolute text-center bg-yellow-400 py-10 px-4 md:px-32 text-blue-950">
+        <div className="relative container mx-auto max-w-4xl md:-mt-28">
+            <p className="md:absolute text-center bg-yellow-400 py-10 px-4 md:px-12 text-blue-950">
                 The key pillars of Tshimologong’s ecosystem in achieving its purpose include the Digital Skills Academy with a range of programming to grow the talent for digital ventures to thrive, the Enterprise Development model accelerates the growth of digital ventures at every stage of their business, ensuring desirable and feasible technology, as well as viable business models with sound operations. Furthermore, the Digital Marketplace provides platforms of access to market for digital startups and interns.</p>
         </div>
     </>

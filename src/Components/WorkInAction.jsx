@@ -16,8 +16,8 @@ const WorkInAction = () => {
                 </div>
                 <h1 className="font-bold text-blue-950 text-lg">DIGITAL SKILL ACADEMY</h1>
                 <p className="mt-3 text-gray-500">An accelerator bridging the gap between academia and industry, offering quality skills programmes and experiential learning.</p>
-                <div className="flex justify-center py-5">
-                    <button className="flex items-center border-2 border-blue-950 px-7 py-2 gap-2">EXPLORE <FaAngleRight className="mt-1"/></button>
+                <div className="relative flex justify-center py-5">
+                    <button className="absolute bottom-1 flex items-center border-2 border-blue-950 px-7 py-2 gap-2">EXPLORE <FaAngleRight className="mt-1"/></button>
                 </div>
             </div>
             {/* edfeded */}

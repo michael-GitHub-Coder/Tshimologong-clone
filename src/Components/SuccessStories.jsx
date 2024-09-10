@@ -31,7 +31,7 @@ const SuccessStories = () => {
                     <img src={pic3} className="p-4"/>
                     <h1 className="text-center text-blue-950 font-bold">Mollo Animation Academy and Studio</h1>
                     <p className="text-center text-gray-400 text-sm p-4">From the Cave’s mouth, an animation short, produced by the Animation Academy has been selected to show at the Los Angeles Rocks International Film Festival (Lariff).</p>
-                    <div className="absolute bottom-2 left-[35%] md:left-0 grid-cols-1 md:flex md:justify-center gap-2 px-4 py-3">
+                    <div className="absolute bottom-2  grid-cols-1 md:flex md:justify-center gap-2 px-14 py-3">
                         <button className="text-blue-950 text-[12px] flex gap-2 border-2 border-blue-950 py-2 px-4">VIEW ANIMATION <FaAngleRight className="mt-1"/> </button>
                         <button className="text-blue-950 text-[12px] flex gap-2 border-2 border-blue-950 py-2 px-4 mt-2 md:mt-0">READ MORE <FaAngleRight className="mt-1"/> </button>
                     </div>

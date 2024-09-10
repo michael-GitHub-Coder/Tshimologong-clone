@@ -67,9 +67,11 @@ const SlideShow = () => {
               <div style={{ 
                 ...divStyle, 
                 backgroundImage: `url(${slideImage.url})`, 
-                height: '300px'
-                }} >
-                <span style={spanStyle}>{slideImage.caption}</span>
+                height: '400px',
+                backgroundPosition: 'center',
+                backgroundSize: 'cover'
+                }}  className="object-cover">
+                
               </div>
             </div>
           ))} 
