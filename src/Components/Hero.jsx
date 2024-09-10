@@ -78,7 +78,7 @@ const Hero = () => {
           <button className="border-2 border-blue-950 p-4 mb-10 mt-5 flex justify-center gap-3">GET IN TOUCH <FaAngleRight size={18} className="mt-1" /></button>
       </div>
 
-      <div className="mt-5 md:absolute inset-x-2 md:inset-x-0 flex flex-col md:flex-row justify-center md:gap-8 gap-2 md:-mt-14 px-5">
+      <div className="px-5 mt-5 md:absolute inset-x-2 md:inset-x-0 flex flex-col md:flex-row justify-center md:gap-8 gap-2 md:-mt-14">
           <button className="bg-green-500 p-5 font-bold text-md md:text-2xl md:p-10 hover:bg-green-600">SKILLS DEVELOPMENT</button>
           <button className="bg-cyan-400 p-5 font-bold text-md md:text-2xl md:p-10 hover:bg-cyan-500">ENTERPRISE DEVELOPMENT</button>
           <button className="bg-orange-600 p-5 font-bold text-md md:text-2xl md:p-10 hover:bg-orange-700">MARKET ACCESS</button>
