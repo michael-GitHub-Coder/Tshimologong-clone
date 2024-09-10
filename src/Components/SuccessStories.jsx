@@ -5,8 +5,8 @@ import pic3 from '../assets/popay.svg'
 import { FaAngleRight } from 'react-icons/fa'
 const SuccessStories = () => {
   return (
-    <div className="mt-20 bg-gray-200">
-        <div className="container mx-auto pt-20">
+    <div className="mt-10 md:mt-20 bg-gray-200">
+        <div className="container mx-auto pt-10 md:pt-20">
             <h1 className="text-blue-950 text-center font-bold text-2xl">OUR SUCCESS STORIES</h1>
             <p className="text-blue-950 text-center font-bold text-xl">We develop skilled youth and digital entrepreneurs that excel in global markets</p>
             {/* cards */}

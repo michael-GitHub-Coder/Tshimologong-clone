@@ -24,7 +24,7 @@ const Reports = () => {
                 </div>
             </div>
         </div>
-        <div style={{ backgroundImage: `url(${pic1})`,backgroundSize: 'cover', backgroundPosition: 'center',}} className="object-cover h-[200px] md:h-[200px]  mt-10">
+        <div style={{ backgroundImage: `url(${pic1})`,backgroundSize: 'cover', backgroundPosition: 'center',}} className="object-cover h-[240px] md:h-[200px]  mt-10">
             <h1 className="flex justify-center text-white font-bold text-3xl pt-10 text-center">EVALUATING THE AFRICAN DEEP TECH SPIN-OFF ECOSYSTEM</h1>
             <div className="flex justify-center text-white">
                 <button className="border-2 border-white px-5 py-1 text-md mt-5">DOWNLOAD REPORT</button>
