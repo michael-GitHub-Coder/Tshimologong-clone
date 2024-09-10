@@ -16,7 +16,7 @@ const WorkInAction = () => {
                 </div>
                 <h1 className="font-bold text-blue-950 text-lg">DIGITAL SKILL ACADEMY</h1>
                 <p className="mt-3 text-gray-500 mb-5 ">An accelerator bridging the gap between academia and industry, offering quality skills programmes and experiential learning.</p>
-                <div className="relative flex justify-center py-5">
+                <div className="relative flex justify-center py-5 mt-10">
                     <button className="absolute bottom-1 flex items-center border-2 border-blue-950 px-7 py-2 gap-2">EXPLORE <FaAngleRight className="mt-1"/></button>
                 </div>
             </div>
@@ -27,7 +27,7 @@ const WorkInAction = () => {
                 </div>
                 <h1 className="font-bold text-blue-950 text-lg">Enterprise Development</h1>
                 <p className="mt-3 mb-5 text-gray-500">We provide Technology and Digital entrepreneurs with the right tools and support in developing their businesses.</p>
-                <div className="relative flex justify-center py-5">
+                <div className="relative flex justify-center py-5 mt-10">
                     <button className="absolute bottom-1 flex items-center border-2 border-blue-950 px-7 py-2 gap-2">EXPLORE <FaAngleRight className="mt-1"/></button>
                 </div>
             </div>
@@ -38,8 +38,8 @@ const WorkInAction = () => {
                 </div>
                 <h1 className="font-bold text-blue-950 text-lg">DIGITAL CONTENT HUB</h1>
                 <p className="mt-3 mb-5 text-gray-500">An audio-visual and innovative content platform, created for content creators.</p>
-                <div className="relative flex justify-center py-5">
-                    <button className="absolute bottom-1 flex items-center border-2 border-blue-950 px-7 py-2 gap-2">EXPLORE <FaAngleRight className="mt-1"/></button>
+                <div className="relative flex justify-center py-5 mt-10">
+                    <button className="absolute bottom-0 md:bottom-[-2] flex items-center border-2 border-blue-950 px-7 py-2 gap-2">EXPLORE <FaAngleRight className="mt-1"/></button>
                 </div>
             </div>
             {/* edfefde */}
@@ -49,7 +49,7 @@ const WorkInAction = () => {
                 </div>
                 <h1 className="font-bold text-blue-950 text-lg">Makerspace</h1>
                 <p className="mt-3 text-gray-500">We empower young, innovative people to become employable, self-employed or start their own enterprises.</p>
-                <div className="relative flex justify-center py-5">
+                <div className="relative flex justify-center py-5 mt-10">
                     <button className="absolute bottom-1 flex items-center border-2 border-blue-950 px-7 py-2 gap-2">EXPLORE <FaAngleRight className="mt-1"/></button>
                 </div>
             </div>
@@ -60,7 +60,7 @@ const WorkInAction = () => {
                 </div>
                 <h1 className="font-bold text-blue-950 text-lg">Coworking & Community</h1>
                 <p className="mt-3 text-gray-500">We provide Technology and Digital entrepreneurs with the right tools and support in developing their businesses.</p>
-                <div className="relative flex justify-center py-5">
+                <div className="relative flex justify-center py-5 mt-10">
                     <button className="absolute bottom-1 flex items-center border-2 border-blue-950 px-7 py-2 gap-2">EXPLORE <FaAngleRight className="mt-1"/></button>
                 </div>
             </div>
@@ -71,8 +71,8 @@ const WorkInAction = () => {
                 </div>
                 <h1 className="font-bold text-blue-950 text-lg">Events & Experience</h1>
                 <p className="mt-3 text-gray-500">We love sharing in the wisdom of others or just hang out within our community.</p>
-                <div className="relative flex justify-center py-5">
-                    <button className="absolute bottom-1 flex items-center border-2 border-blue-950 px-7 py-2 gap-2">EXPLORE <FaAngleRight className="mt-1"/></button>
+                <div className="relative flex justify-center py-5 mt-10">
+                    <button className="absolute bottom-0 md:bottom-[-2] flex items-center border-2 border-blue-950 px-7 py-2 gap-2">EXPLORE <FaAngleRight className="mt-1"/></button>
                 </div>
             </div>
         </div>
