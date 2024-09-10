@@ -8,9 +8,9 @@ const WorkInAction = () => {
         <h1 className="flex justify-center text-blue-950 font-bold text-2xl mb-5">OUR WORK IN ACTION</h1>
         <p className="flex justify-center px-4 text-blue-950 font-semibold text-xl">We produce world class developers, enterpreneurs and innovators of digital technology</p>
         {/* cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 mt-8 gap-y-4 px-9 pb-2">
+        <div className="grid grid-cols-1 md:grid-cols-3 mt-8 gap-y-4 md:px-9 pb-2">
             {/* graduation */}
-            <div className="w-96 h-auto bg-gray-200 text-center ">
+            <div className="w-96 h-auto bg-gray-200 text-center">
                 <div className="flex justify-center py-3">
                     <FaGraduationCap className="text-4xl text-blue-950"/>
                 </div>
