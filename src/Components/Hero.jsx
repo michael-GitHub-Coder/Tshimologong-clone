@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
+import { FaAngleRight } from 'react-icons/fa';
 import { Slide } from 'react-slideshow-image'
 import 'react-slideshow-image/dist/styles.css'
 
 const Hero = () => {
+  
     const divStyle = {
         display: 'flex',
         alignItems: 'center',
@@ -66,14 +68,14 @@ const Hero = () => {
           ))} 
         </Slide>
       </div>
-      <div className="md:hidden justify-center">
-          <h1>TSHIMOLOGONG</h1>
-          <p>DIGITAL INNOVATION PRECINCT</p>
+      <div className="md:hidden text-center">
+          <h1 className="text-blue-950 font-semibold text-2xl">TSHIMOLOGONG</h1>
+          <p className="text-blue-950 font-bold text-4xl">DIGITAL INNOVATION PRECINCT</p>
       </div>
       <div className="md:hidden inset-x-2 flex flex-col mt-2 gap-4">
-          <button className="bg-green-500 p-5 font-bold text-md  md:p-10 hover:bg-green-600">FIND OUT MORE </button>
-          <button className="bg-cyan-400 p-5 font-bold text-md  md:p-10 hover:bg-cyan-500">2022 IMPACT REPORT</button>
-          <button className="bg-white border border-blue-950 p-5 font-bold text-md  md:p-10 hover:bg-orange-700">GET IN TOUCH</button>
+          <button className="border-2 bg-blue-950 text-white p-4  mt-5 flex justify-center gap-3 font-semibold">FIND OUT MORE <FaAngleRight size={18} className="mt-1" /> </button>
+          <button className="border-2 border-blue-950 p-4 mt-5 flex justify-center gap-3">2022 IMPACT REPORT <FaAngleRight size={18} className="mt-1" /></button>
+          <button className="border-2 border-blue-950 p-4 mb-10 mt-5 flex justify-center gap-3">GET IN TOUCH <FaAngleRight size={18} className="mt-1" /></button>
       </div>
 
       <div className="mt-5 md:absolute inset-x-2 md:inset-x-0 flex flex-col md:flex-row justify-center md:gap-8 gap-2 md:-mt-14">
@@ -81,10 +83,6 @@ const Hero = () => {
           <button className="bg-cyan-400 p-5 font-bold text-md md:text-2xl md:p-10 hover:bg-cyan-500">ENTERPRISE DEVELOPMENT</button>
           <button className="bg-orange-600 p-5 font-bold text-md md:text-2xl md:p-10 hover:bg-orange-700">MARKET ACCESS</button>
       </div>
-
-      {/* <div className="grid grid-cols-2">
-
-      </div> */}
     </div>
   );
 };
