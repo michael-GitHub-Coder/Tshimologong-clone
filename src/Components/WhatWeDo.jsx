@@ -1,8 +1,16 @@
 import React from 'react'
+import pic1 from '../assets/Skill-Development.jpg'
 
 const WhatWeDo = () => {
   return (
     <div>
+        <div style={{ backgroundImage: `url(${pic1})`,backgroundSize: 'cover', backgroundPosition: 'center',}} className="object-cover md:h-[200px] mt-10 container mx-auto py-5">
+            <h1 className="text-center text-white text-4xl font-bold container mx-auto pt-[50px]">TSHIMOLOGONG COMMUNITY & CO-WORKING SPACE</h1>
+            <div className="grid grid-cols-1 md:flex justify-center mt-8 md:gap-4">
+                <button className="border-2 border-pink-600 font-semibold text-white py-1 px-5 mb-2">APPLY FOR MEMBERSHIP</button>
+                <button className="border-2 border-pink-600 font-semibold text-white py-1 px-5 ">READ MORE</button>
+            </div>
+        </div>
         <div className="container mx-auto mb-10 mt-20">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-center ">
                 <div className="hidden md:block">
