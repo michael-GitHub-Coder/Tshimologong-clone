@@ -4,19 +4,14 @@ import 'react-slideshow-image/dist/styles.css'
 
 const SlideShow = () => {
 
-    const spanStyle = {
-        padding: '20px',
-        background: '#efefef',
-        color: '#000000'
-      }
       
-      const divStyle = {
+    const divStyle = {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
         backgroundSize: 'cover',
         height: '400px'
-      }
+    }
     const slideImages = [
         {
             url: "https://tshimologong.joburg/wp-content/uploads/2021/09/web__0015_3d-modeling-4.jpg"

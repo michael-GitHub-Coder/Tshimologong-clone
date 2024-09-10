@@ -1,57 +1,71 @@
 import React, { useState, useEffect } from 'react';
+import { Slide } from 'react-slideshow-image'
+import 'react-slideshow-image/dist/styles.css'
 
 const Hero = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  const images = [
-    'https://via.placeholder.com/1200x600?text=Slide+1',
-    'https://via.placeholder.com/1200x600?text=Slide+2',
-    'https://via.placeholder.com/1200x600?text=Slide+3',
-
-  ];
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 3000); // Change slide every 3 seconds
-
-    return () => clearInterval(interval); // Clean up interval on component unmount
-  }, [images.length]);
-
-  const nextSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-  };
-
-  const prevSlide = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? images.length - 1 : prevIndex - 1
-    );
-  };
-
+    const divStyle = {
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundSize: 'cover',
+        height: '400px'
+    }
+  const slideImages = [
+      {
+          url: "https://tshimologong.joburg/wp-content/uploads/2021/09/web__0015_3d-modeling-4.jpg"
+      },
+      {
+          url: "https://tshimologong.joburg/wp-content/uploads/2021/09/web__0016__DSC1272.jpg"
+      },
+      {
+          url: "https://tshimologong.joburg/wp-content/uploads/2021/09/web__0010_05nov-yabasadiar-16.jpg"
+      },
+      {
+          url: "https://tshimologong.joburg/wp-content/uploads/2021/09/web__0010_05nov-yabasadiar-16.jpg"
+      },
+      {
+          url: "https://tshimologong.joburg/wp-content/uploads/2021/09/web__0010_05nov-yabasadiar-16.jpg"
+      },
+      {
+          url: "https://tshimologong.joburg/wp-content/uploads/2021/09/web__0010_05nov-yabasadiar-16.jpg"
+      },
+      {
+          url: "https://tshimologong.joburg/wp-content/uploads/2021/09/web__0010_05nov-yabasadiar-16.jpg"
+      },
+      {
+          url: "https://tshimologong.joburg/wp-content/uploads/2021/09/web__0010_05nov-yabasadiar-16.jpg"
+      },
+      {
+          url: "https://tshimologong.joburg/wp-content/uploads/2021/09/web__0010_05nov-yabasadiar-16.jpg"
+      },
+      {
+          url: "https://tshimologong.joburg/wp-content/uploads/2021/09/web__0010_05nov-yabasadiar-16.jpg"
+      },
+      {
+          url: "https://tshimologong.joburg/wp-content/uploads/2021/09/web__0010_05nov-yabasadiar-16.jpg"
+      },
+      {
+          url: "https://tshimologong.joburg/wp-content/uploads/2021/09/web__0010_05nov-yabasadiar-16.jpg"
+      },
+      {
+          url: "https://tshimologong.joburg/wp-content/uploads/2021/09/web__0010_05nov-yabasadiar-16.jpg"
+      }
+  ]
+ 
   return (
     <div>
-      <div className="relative w-full h-[250px] md:h-[460px] overflow-hidden">
-          <button
-              onClick={prevSlide}
-              className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-lg"
-          >
-              &lt;
-          </button>
-          <div className="relative w-full h-full">
-              <img
-                  src={images[currentIndex]}
-                  alt={`Slide ${currentIndex}`}
-                  className="w-full h-full object-cover transition-transform duration-500"
-              />
-          </div>
-          <button
-              onClick={nextSlide}
-              className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-lg"
-          >
-              &gt;
-          </button>
+      <div className="slide-container mb-10">
+        <Slide>
+         {slideImages.map((slideImage, index)=> (
+            <div key={index}>
+              {/* <div style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url}), 'height':'20px'` }}> */}
+              <div style={{ backgroundImage: `url(${slideImage.url})`, height: '400px',backgroundPosition: 'center',backgroundSize: 'cover'}}  className="object-cover">
+                
+              </div>
+            </div>
+          ))} 
+        </Slide>
       </div>
-
       <div className="md:hidden justify-center">
           <h1>TSHIMOLOGONG</h1>
           <p>DIGITAL INNOVATION PRECINCT</p>
