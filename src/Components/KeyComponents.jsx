@@ -54,26 +54,27 @@ const KeyComponents = () => {
                     </div>
                     {/* HARDWARE */}
                    <div className="md:flex ">
+                        <h1 className="md:hidden text-center text-blue-950">Internet of Things<br></br>Digital Fabrication<br></br>Robotics <br></br>Electronics</h1>
                         <div className="relative left-[-5%] bg-blue-950 text-white h-44 w-44 rounded-full opacity-95">
                             <FaTools className="absolute top-[25%] left-[42%] text-4xl"/>
                             <h1 className="absolute top-1/2 left-[30%] font-bold">HARDWARE</h1>
                         </div>
-                        <h1 className="text-center text-blue-950">Internet of Things<br></br>Digital Fabrication<br></br>Robotics <br></br>Electronics</h1>
+                        <h1 className="hidden md:block text-center text-blue-950">Internet of Things<br></br>Digital Fabrication<br></br>Robotics <br></br>Electronics</h1>
                    </div>
                 </div>
                 {/* SOFTWARE */}
-                <div className="relative bg-blue-950 right-[-33%] top-[-14%] text-white h-44 w-44 rounded-full opacity-90">
+                <div className="relative bg-blue-950 right-[-24%] md:right-[-33%] top-[-11%] md:top-[-14%] text-white h-44 w-44 rounded-full opacity-90">
                     <GoGear className="absolute top-[25%] left-[42%] text-4xl"/>
                     <h1 className="absolute top-1/2 left-[30%] font-bold">SOFTWARE</h1>
                 </div>
-                <h1 className="text-center text-blue-950 -mt-13 md:-mt-10">Mobile App Development <br></br> Web Development <br></br>Testing</h1>
+                <h1 className="text-center text-blue-950 -mt-10 md:-mt-10">Mobile App Development <br></br> Web Development <br></br>Testing</h1>
             </div>
         </div>
-        <div style={{ backgroundImage: `url(${pic1})`,backgroundSize: 'cover', backgroundPosition: 'center',}} className="object-cover h-[450px] md:h-[400px] mt-10">
-            <h1 className="text-center text-white text-2xl font-bold container mx-auto pt-[10%]">We exist to fulfil our “Africa Rising” destiny by producing world class developers, entrepreneurs and innovators of digital technology</h1>
+        <div style={{ backgroundImage: `url(${pic1})`,backgroundSize: 'cover', backgroundPosition: 'center',}} className="object-cover h-[400px] mt-10">
+            <h1 className="text-center text-white text-2xl font-bold container mx-auto pt-[50px]">We exist to fulfil our “Africa Rising” destiny by producing world class developers, entrepreneurs and innovators of digital technology</h1>
             <div className="grid-cols-1 md:flex justify-center mt-8 md:gap-4">
-                <button className="bg-pink-500 px-7 mb-4 py-1.5 text-white flex gap-2 hover:bg-pink-700 w-full md:w-auto ">PARTNERS <FaAngleRight className="mt-1"/></button> 
-                <button className="border-2 solid-2 mb-4 border-yellow-500 px-7 py-1.5 text-yellow-500  w-full md:w-auto flex gap-2 hover:bg-transparent ">EVENTS <FaAngleRight className="mt-1 text-yellow-500" /></button>
+                <button className="bg-pink-500 px-7 mb-4 py-1.5 text-white flex justify-center gap-2 hover:bg-pink-700 w-full md:w-auto ">PARTNERS <FaAngleRight className="mt-1"/></button> 
+                <button className="border-2 solid-2 mb-4 border-yellow-500 px-7 py-1.5 text-yellow-500  w-full md:w-auto flex justify-center gap-2 hover:bg-transparent ">EVENTS <FaAngleRight className="mt-1 text-yellow-500" /></button>
             </div>
         </div>
     </div>

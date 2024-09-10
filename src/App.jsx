@@ -12,6 +12,7 @@ import Footer2 from './Components/Footer2'
 import PolicyRR from './Components/PolicyRR'
 import SlideShow from './Components/SlideShow'
 import WhatWeDo from './Components/WhatWeDo'
+import FooterYeloowStripe from './Components/FooterYeloowStripe'
 
 const App = () => {
 
@@ -27,6 +28,7 @@ const App = () => {
     <Reports />
     <SuccessStories />
     <SlideShow />
+    <FooterYeloowStripe />
     <Footer />
     <Footer2 />
     <PolicyRR />
