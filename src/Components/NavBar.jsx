@@ -42,27 +42,27 @@ const NavBar = () => {
 
                         <div className="relative group">
                             <h1 className="flex gap-1.5 cursor-pointer text-blue-950 hover:text-gray-400">
-                            About Us <FaAngleDown className="md:mt-1" />
+                                About Us <FaAngleDown className="md:mt-1" />
                             </h1>
-                            <div className="absolute left-0 mt-2 w-48 bg-white border border-gray-300 rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                            <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Teams</a>
-                            <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Partners</a>
+                            <div className="absolute left-0 mt-2 w-48 bg-white border border-gray-300 rounded-md shadow-lg hidden group-hover:block transition-opacity duration-300">
+                                <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Teams</a>
+                                <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Partners</a>
                             </div>
                         </div>
 
                         <div className="relative group">
                             <h1 className="flex gap-1.5 cursor-pointer text-blue-950 hover:text-gray-400 transition-transform duration-500 transform hover:scale-105">
-                            Skills Development <FaAngleDown className="md:mt-1" />
+                                Skills Development <FaAngleDown className="md:mt-1" />
                             </h1>
-                            <div className="absolute left-0 mt-2 w-48 bg-white border border-gray-300 rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                            <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Mollo Animation Academy and Studio</a>
-                            <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Digital Skills Academy</a>
+                            <div className="absolute left-0 mt-2 w-48 bg-white border border-gray-300 rounded-md shadow-lg hidden group-hover:block transition-opacity duration-300">
+                                <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Mollo Animation Academy and Studio</a>
+                                <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Digital Skills Academy</a>
                             </div>
                         </div>
 
                         <div className="relative group">
                             <h1 className="flex gap-1.5 cursor-pointer text-blue-950 hover:text-gray-400 transition-transform duration-500 transform hover:scale-105">Incubation & Acceleration<FaAngleDown className="md:mt-1" /></h1>
-                            <div className="absolute left-0 mt-2 w-48 bg-white border border-gray-300 rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <div className="absolute left-0 mt-2 w-48 bg-white border border-gray-300 rounded-md shadow-lg hidden group-hover:block transition-opacity duration-300">
                                 <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Mollo Animation Academy and Studio</a>
                                 <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Digital Skills Academy</a>
                             </div>
@@ -70,7 +70,7 @@ const NavBar = () => {
                         
                         <div className="relative group">
                             <h1 className="flex gap-1.5 cursor-pointer text-blue-950 hover:text-gray-400">Market Access<FaAngleDown className="md:mt-1" /></h1>
-                            <div className="absolute left-0 mt-2 w-48 bg-white border border-gray-300 rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <div className="absolute left-0 mt-2 w-48 bg-white border border-gray-300 rounded-md shadow-lg hidden group-hover:block transition-opacity duration-300">
                                 <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Mollo Animation Academy and Studio</a>
                                 <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Digital Skills Academy</a>
                             </div>
@@ -80,7 +80,7 @@ const NavBar = () => {
                         <h1 className="cursor-pointer text-blue-950 hover:text-gray-400">News</h1>
                         <div className="relative group">
                             <h1 className="flex gap-1.5 cursor-pointer text-blue-950 hover:text-gray-400">Opportunities<FaAngleDown className="md:mt-1" /></h1>
-                            <div className="absolute left-0 mt-2 w-48 bg-white border border-gray-300 rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <div className="absolute left-0 mt-2 w-48 bg-white border border-gray-300 rounded-md shadow-lg hidden group-hover:block transition-opacity duration-300">
                                 <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Mollo Animation Academy and Studio</a>
                                 <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Digital Skills Academy</a>
                             </div>
@@ -105,7 +105,7 @@ const NavBar = () => {
                             <h1 className="flex justify-between gap-1.5 cursor-pointer text-white hover:text-gray-400">
                                 About Us <FaAngleRight className="mt-1" />
                             </h1>
-                            <div className="absolute left-0 mt-2 w-48 bg-white border border-gray-300 rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <div className="absolute left-0 mt-2 w-48 bg-white border border-gray-300 rounded-md shadow-lg hidden group-hover:block transition-opacity duration-300">
                                 <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Teams</a>
                                 <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Partners</a>
                             </div>
@@ -114,7 +114,7 @@ const NavBar = () => {
                             <h1 className="flex justify-between gap-1.5 cursor-pointer text-white hover:text-gray-400 transition-transform duration-500 transform hover:scale-105">
                                 Skills Development <FaAngleRight className="mt-1" />
                             </h1>
-                            <div className="absolute left-0 mt-2 w-48 bg-white border border-gray-300 rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <div className="absolute left-0 mt-2 w-48 bg-white border border-gray-300 rounded-md shadow-lg hidden group-hover:block transition-opacity duration-300">
                                 <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Mollo Animation Academy and Studio</a>
                                 <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Digital Skills Academy</a>
                             </div>
