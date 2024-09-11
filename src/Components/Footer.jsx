@@ -3,8 +3,8 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className="grid-cols-1 md:flex bg-blue-900 ">
-        <div className="container mx-auto md:flex md:gap-40">
-            <div className="px-10 md:py-10 text-center md:text-left">
+        <div className="container mx-auto md:flex md:gap-20">
+            <div className="px-10 md:py-10 md:ml-20 text-center md:text-left">
                 <h1 className="text-green-500 py-5">SKILLS DEVELOPMENT</h1>
                 <ul className="text-white text-sm">
                     <li>Mollo Animation Academy and Studio</li>
