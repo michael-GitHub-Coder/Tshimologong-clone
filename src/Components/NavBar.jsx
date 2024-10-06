@@ -8,7 +8,7 @@ import { FaTimes } from 'react-icons/fa';
 
 const NavBar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
-    const [isSticky, setIsSticky] = useState(false); // State to control navbar position
+    const [isSticky, setIsSticky] = useState(false); 
 
     // Function to handle scroll event
     useEffect(() => {
