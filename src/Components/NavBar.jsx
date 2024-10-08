@@ -23,12 +23,14 @@ const NavBar = () => {
         window.addEventListener('scroll', handleScroll); // Add scroll event listener
         return () => window.removeEventListener('scroll', handleScroll); // Cleanup event listener on unmount
     }, []);
+
+
     return (
         <div>
             <div className="bg-blue-950">
                 <BlueStripe />
             </div>
-            {/* TODO: make the navbar move to top-0 on scroll and tgen apply the fixed attribute */}
+            {/* TODO: make the navbar move to top-0 on scroll and then apply the fixed attribute */}
             <nav className={`p-4 w-full bg-white z-50 transition-all duration-300 ${isSticky ? 'fixed top-0 shadow-lg' : 'relative'}`}>
                 <div className="flex justify-between items-center">
                   
